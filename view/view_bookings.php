@@ -65,7 +65,7 @@ include '../includes/manager_header.php';
                             <td style="padding: 15px;"><?php echo htmlspecialchars($row['time_slot']); ?></td>
                             <td style="padding: 15px;">
                                 <?php 
-                                    $status_color = "#f1c40f"; // Yellow for Pending
+                                    $status_color = "#f1c40f"; 
                                     if($row['status'] == 'Confirmed') $status_color = "#2ecc71";
                                     if($row['status'] == 'Cancelled') $status_color = "#e74c3c";
                                 ?>
